@@ -1,0 +1,30 @@
+header {
+    display: flex;/*Para colocar en horizontal los elementos*/
+    height: 80px;
+    background-color: #043c54;
+    align-items: center; /*Para centrar verticalmente los elementos*/
+    padding: 10px;
+}
+.inicio img{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    color: #dbe8ea;
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #041936 ;
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff  ;
+}
