@@ -1,11 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAB-04</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--encabezado de cuerpo-->
+    <header>
+      <h1>Plataforma Educativa Universidad Central</h1>
+    </header>
+
+    <!--menu-->
+    <nav>
+      <a href="https://uc.ac.cr/"><button>Inicio</button></a>
+      <a href="https://uc.ac.cr/grados-academicos/"><button>Cursos</button></a>
+      <a href="https://uc.ac.cr/contacto/"><button>Contactos</button></a>
+      <a href="mailto:soporte@uc.ac.cr"><button>Soporte Técnico</button></a>
+    </nav>
+
+    <main>
+      <section>
+        <!--section para poner formulario de registro-->
+        <form action="#" method="post" id="registration-form">
+          <fieldset class="registro-fieldset">
+            <legend>Registro de Usuario</legend>
+            <div class="form-group">
+              <label for="username">Nombre de usuario:</label>
+              <input
+                class="form-input"
+                type="text"
+                id="username"
+                name="username"
+                required
+              />
+
+              <label for="email">Correo electrónico:</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+
+              <label for="password">Contraseña:</label>
+              <input
+                class="form-input"
+                type="password"
+                id="password"
+                name="password"
+                required
+              />
+            </div>
+
+            <fieldset class="genero-fieldset">
+              <!--selector de opcion de genero-->
+              <legend>Género</legend>
+              <div>
+                <div>
+                  <input type="radio" value="m" name="genero" id="g-m" />
+                  <label for="g-m">Masculino</label>
+                </div>
+                <div>
+                  <input type="radio" value="f" name="genero" id="g-f" />
+                  <label for="g-f">Femenino</label>
+                </div>
+                <div>
+                  <input type="radio" value="o" name="genero" id="g-o" />
+                  <label for="g-o">Otro</label>
+                </div>
+                <div>
+                  <input type="radio" value="n" name="genero" id="g-n" />
+                  <label for="g-n">Prefiero no decirlo</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="intereses-fieldset">
+              <!--selector multiple intereses-->
+              <legend>Seleccione sus intereses:</legend>
+              <div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest1"
+                    name="intereses"
+                    value="programacion"
+                  />
+                  <label for="interest1">Programación</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest2"
+                    name="intereses"
+                    value="diseño"
+                  />
+                  <label for="interest2">Diseño Gráfico</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest3"
+                    name="intereses"
+                    value="marketing"
+                  />
+                  <label for="interest3">Marketing Digital</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest4"
+                    name="intereses"
+                    value="datos"
+                  />
+                  <label for="interest4">Ciencia de Datos</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest5"
+                    name="intereses"
+                    value="deportes"
+                  />
+                  <label for="interest5">Deportes</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest6"
+                    name="intereses"
+                    value="filosofía"
+                  />
+                  <label for="interest6">Filosofía</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="interest7"
+                    name="intereses"
+                    value="musica"
+                  />
+                  <label for="interest7">Música</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <button class="submit-button" type="submit">Registrar</button>
+          </fieldset>
+        </form>
+      </section>
+      <section id="video">
+        <!--section para poner video-->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/E1mYs7dw1qc?si=7ncwhlHGVhlhRYsv"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+    </main>
+
+    <footer><!--pie de pagina-->
+      <p>
+        © 2025 Plataforma Universidad Central. Todos los derechos reservados.
+      </p>
+      <p>
+        Contacto:
+        <a href="mailto:info@universidadcentral.ac.cr">Universidad Central</a>
+      </p>
+    </footer>
+  </body>
 </html>
