@@ -1,18 +1,17 @@
 body {
-  background-color: #043b5b;
+  background-color: #dbe8ea;
   margin: auto;
   font-family: Arial, sans-serif;
 }
 header {
-  background-color: #45c2bc;
+  background-color: #043c54;
   color: white;
   text-align: center;
   padding: 20px;
 }
-h1 {
-  margin: 0;
-  font-size: 2em;
-  text-shadow: #043b5b 4px 4px 4px;
+header img {
+  height: 70px;
+  margin: 0 20px;
 }
 nav {
   display: flex;
@@ -66,38 +65,6 @@ nav button:hover {
   color: #46818b;
   outline: none;
 }
-.genero-fieldset {
-  margin: 10px auto;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-}
-.genero-fieldset legend {
-  font-weight: bold;
-}
-#g-m,
-#g-f,
-#g-o,
-#g-n,
-input[type="radio"]:checked + label {
-  accent-color: #46818b; /* Cambia a tu color deseado al seleccionar */
-}
-.intereses-fieldset {
-  margin: auto;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-}
-#interest1,
-#interest2,
-#interest3,
-#interest4,
-#interest5,
-#interest6,
-#interest7,
-input[type="checkbox"]:checked + label {
-  accent-color: #46818b; /* Cambia a tu color deseado al seleccionar la casilla */
-}
 .submit-button {
   background-color: #3c9ca4;
   color: white;
@@ -109,6 +76,20 @@ input[type="checkbox"]:checked + label {
   transition: background-color 0.3s ease; /*Genera transición suave al cambiar el color de fondo*/
 }
 .submit-button:hover {
+  background-color: #246c7c; /* Cambia el color de fondo al pasar el mouse */
+}
+#siguiente  {
+    background-color: #3c9ca4;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /*Genera transición suave al cambiar el color de fondo*/
+    margin-left: 33%;
+}
+#siguiente:hover {
   background-color: #246c7c; /* Cambia el color de fondo al pasar el mouse */
 }
 #video {
@@ -123,7 +104,7 @@ input[type="checkbox"]:checked + label {
   border: none;
 }
 footer {
-  background-color: #45c2bc;
+  background-color: #043c54;
   color: white;
   text-align: center;
   padding: 10px;

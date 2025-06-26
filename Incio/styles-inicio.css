@@ -22,9 +22,47 @@ nav a:hover {
     background-color: #041936 ;
     border-radius: 5px;
 }
+main {
+    max-width: 1200px;
+    margin: 35px auto 35px auto;
+    text-align: center;
+    color: #043c54;
+}
+.anuncios {
+    border: 2px solid #f0f8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff; /* Light background for the form */
+  margin-top: 35px;
+}
+.anuncios legend {
+  font-weight: bold;
+  text-align: left;
+  font-size: 21px;
+  color: #043c54; /* Color for the legend */
+}
+.anuncios img{
+    border-radius: 8px;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff  ;
+    background-color: #dbe8ea   ;
+}
+footer {
+  background-color: #043c54;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
